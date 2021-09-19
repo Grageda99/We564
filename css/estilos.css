@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+}
+.menu .categoria-menu {
+  display: block;
+  width: 90%;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  background: #403de8;
+
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
