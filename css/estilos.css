@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fff;
+}
+.menu {
+  display: inline-flex;
+  flex-direction: row;
+  width: 50%;
+  align-content: center;
+  justify-content: center;
+}
+.menu .categoria-menu {
+  display: inline-block;
+  width: 90%;
+  padding: 15px 32px;
+  margin: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.categoria-menu1 {
+  border: 3px rgba(100, 100, 100, 0.1);
+
+  padding: 15px 32px;
+  width: 90%;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  background-size: 300%;
+  transition: 0.65%;
+  margin: 4px 4px;
+  text-decoration: none;
+}
+
+.btn {
+  border: 3px rgba(100, 100, 100, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 300px;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  background-size: 300%;
+  transition: 0.65%;
+}
+.btn:hover {
+  background-position: right;
+}
+.categoria-menu1:hover {
+  background-position: right;
+}
+.btn1 {
+  background-image: linear-gradient(to left, #403de8, #9a20a7, #403de8);
+}
+.btn2 {
+  background-image: linear-gradient(to left, #403de8, #9a20a7, #403de8);
+}
+.btn3 {
+  background-image: linear-gradient(to left, #403de8, #9a20a7, #403de8);
+}
+.btn4 {
+  background-image: linear-gradient(to left, #403de8, #9a20a7, #403de8);
+}
+.btn5 {
+  background-image: linear-gradient(to left, #403de8, #9a20a7, #403de8);
+}
