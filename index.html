@@ -1,28 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
+    <meta charset="UFT-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/estilos.css">
-    
-    <title>Curriculum Jose Grageda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="fonts">
+    <TItle>Portafolio Grageda Terrzas Jose</TItle>
 </head>
+
 <body>
-    <nav class="menu">
-    <a href="actividad2.html" class="categoria-menu1 btn1" category="salir">Actividad de aprendizaje 5</a>
-    </nav>
-<h1>Datos Personales</h1>
-<img src="img/GragedaTerrazas.jpg" alt="Grageda Terrazas">
-<p><strong>Nombre:</strong>Jose Manuel Grageda Terrazas</p>
-<p><strong>Direccion:</strong>Pueblo Escondido #56</p>
-<p><strong>Telefono:</strong>6628473600</p>
-<p><strong>Email:</strong>josegrageda548@gmail.com</p>
-<div>
-<h1>Consejos y Trucos para Visual Studio Code</h1>
-<ol>
-<li><a href="Abrebiazion_por_Teclado.html" target="_blank">Abrebiazion por Teclado</a></li>
-<li><a href="Atajos_por_Teclado.html" target="_blank">Atajos por Teclado</a></li>
-</ol>
-</div>
+    <header>
+        <div class="contenedor">
+            <!--Menu-->
+            <nav class="menu">
+                <a href="actividad2.html" button class="categoria-menu1 btn5">Inicio</></button>
+                    <a href="" class="categoria-menu1 btn1">Acerca de</a>
+                    <a href="" class="categoria-menu1 btn2">Trabajos</a>
+                    <a href="" class="categoria-menu1 btn3">Contactos</a>
+            </nav>
+            <div class="Contenedor-texto">
+                <div class="texto">
+                    <h1 class="Nombre">Jose Grageda</h1>
+                    <h1 class="Profecion">Estudiante de Ingenieria en Software</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Contenido Principal del Portafolio. acerca de y trabajos-->
+    <section class="main">
+        <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/perfil/GragedaTerrazas.jpg" alt="Foto de Jose Grageda">
+                </div>
+                <div class="texto">
+                    <h3 class="titulo">Acerca de</h3>
+                    <p>Hola <span class="bold">soy un estudiante de ultimos semestres</span>de la carrera Ingenieria en
+                        Software.
+                        La Ingeniería de Software es una de las ramas de las ciencias de la
+                        computación que estudia la creación de software confiable y de calidad,
+                        basándose en métodos y técnicas de ingeniería. Brindando soporte operacional y
+                        de mantenimiento, el campo de estudio de la ingeniería de software.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="trabajos">
+            <div class="contenedor">
+                <h3 class="titulo">Trabajos</h3>
+                <div class="contenedor-trabajos">
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/imagen-de-prueba.jpg" alt="Imagen de Prueba">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoria">HTML - CSS - JavaScrip</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/imagen-de-prueba.jpg" alt="Imagen de Prueba">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoria">HTML - CSS - JavaScrip</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/imagen-de-prueba.jpg" alt="Imagen de Prueba">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoria">HTML - CSS - JavaScrip</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajos/imagen-de-prueba.jpg" alt="Imagen de Prueba">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem ipsum</p>
+                            <p class="categoria">HTML - CSS - JavaScrip</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <section class="contacto">
+            <div class="contenedor">
+                <h3 class="titulo">C<span>ontactanos hoy mismo para obtener más
+                        información.</span></h3>
+                <form action="" class="formulario">
+                    <label for="Nombre" class="form-label">Nombre:</label>
+                    <input type="text" id="nombre" name="name" class="form-input" placeholder="Escribe tu nombre"
+                        required>
+
+                    <label for="Asunto" class="form-label">Asunto:</label>
+                    <input type="text" id="Asunto" name="asunto" class="form-input" placeholder="Escriba el asunto"
+                        required>
+
+                    <label for="Correo" class="form-label">Correo Eletronico:</label>
+                    <input type="email" id="Correo" name="mail" class="form-input" placeholder="Escriba su correo"
+                        required>
+
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea id="mensaje" name="men" class="form-textarea" placeholder="Aqui escriba su mensaje"
+                        required></textarea>
+                    <input type="submit" value="Enviar" class="boton">
+                </form>
+            </div>
+        </section>
+        <section class="redes-sociales">
+            <div class="redes">
+                <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="" class="youtube"><i class="fa fa-youtube-play"></i></a>
+                <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
+
+            </div>
+
+        </section>
+    </footer>
+    <!--Pie de pagina del portafolio. seccion "contacto" y redes sociales-->
+
+
+
+
 </body>
+
+<body>
+    <div class="social-bar">
+        <a href="https://www.facebook.com/josemanuel.gragedaterrazas/" class="icon icon-facebook" target="_blank"></a>
+        <a href="" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.instagram.com/manuel_grageda/" class="icon icon-instagram" target="_blank"></a>
+    </div>
+</body>
+
 </html>
